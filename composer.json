@@ -1,0 +1,26 @@
+{
+    "name": "quba546/service-contracts",
+    "description": "Example of using service contracts in Magento 2",
+    "type": "magento2-module",
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "license": "",
+    "authors": [
+        {
+            "name": "quba546",
+            "email": "kuba.rossoneri@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Example\\ServiceContracts\\": ""
+        }
+    }
+}
